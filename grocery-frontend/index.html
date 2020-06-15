@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groceries!!!</title>
+
+    <!--Fonts/Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <!--custom css-->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!--navigation-->
+<nav class = "navbar">
+    <div class="navbar-center">
+    <span class="nav-icon">
+        <i class="fas fa-bars"></i>
+        
+    </span>
+    <img src="" alt="Groceries!!" />
+    <div class="cart-btn">
+        <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+        </span>
+        <div class="cart-items">0</div>
+    </div>
+    </div>
+</nav>
+<!--Banner-->
+<header class = "bp">
+    <div class="banner">
+        <h1 class="banner-title">Glamazon Grocery</h1>
+        <button class="banner-btn">It's Grocery Time</button>
+    </div>
+</header>
+<!--Products-->
+<section class="products">
+    <div class="section-title">
+        <h2>Groceries</h2>
+    </div>
+    <div class="products-all">
+        <article class="product">
+            <div class="img-container">
+                <img src="./images/apples.jpg" alt="Apple" class = "product-img"/>
+                <button class="bag-btn" data-id="1">
+                    <i class="fas fa-shopping-cart">
+                        add to cart
+                    </i>
+                </button>
+            </div>
+            <h3>Apple</h3>
+            <h4>$1</h4>
+        </article>
+      
+    </div>
+</section>
+<!---Cart-->
+<div class="cart-overlay">
+    <div class="cart">
+        <span class="close-cart">
+            <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+            <!--cart item-->
+            <div class="cart-item">
+                <img src="./images/apple.jpeg" alt="apple">
+                <div>
+                    <h4>Apple</h4>
+                    <h5>$1.00</h5>
+                    <span class="remove-item"></span>
+                </div>
+                <div>
+                    <i class="fas fa-chevron-up"></i>
+                    <p class="item-amount">1</p>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <!-- end-->
+            <div class="cart-footer">
+                <h3>TOTAL : $ <span class="cart-total"></span></h3>
+                <button class="empty-cart banner-btn">Empty Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
