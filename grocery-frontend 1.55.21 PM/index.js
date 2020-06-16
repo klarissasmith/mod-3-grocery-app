@@ -54,7 +54,7 @@ class Storage{
 // "add to cart" button
 bagBtn.addEventListener("click", () => {
     console.log("Hooray");
-    fetch("http://localhost:3000/carts/1")
+    fetch("http://localhost:3000/products/4")
     .then(resp => resp.json())
     .then(json => console.log(json))
 });
@@ -64,7 +64,7 @@ function buildCartCard (obj) {
     let div = document.createElement("div");
     div.className = "cart-item";
     let img = document.createElement("img");
-    img.src = obj.img_url;
+    img.src = "./images/apples.jpg";
     let div1 = document.createElement("div");
     let productName = document.createElement("h4");
     productName.innerText = obj.name;
@@ -72,5 +72,22 @@ function buildCartCard (obj) {
     productPrice.innerText = obj.price;
     let deleteItem = document.createElement("span");
     deleteItem.className = "remove-item";
-
+    div1.appendChild(productName);
+    div1.appendChild(productPrice);
+    div1.appendChild(deleteItem);
+    let div2 = document.createElement("div");
+    let chevUp = document.createElement("i");
+    chevUp.className = "fas fa-chevron-up";
+    let amount = document.createElement("p");
+    amount.className = "item-amount";
+    amount.innerText = "1";
+    let chevDown = document.createElement("i");
+    chevDown.className = "fas fa-chevron-down";
+    div2.appendChild(chevUp);
+    div2.appendChild(amount);
+    div2.appendChild(chevDown);
+    div.appendChild(img);
+    div.appendChild(div1);
+    div.appendChild(div2);
+    cartContent.appendChild(div);
 };
