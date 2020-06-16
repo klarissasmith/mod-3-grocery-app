@@ -40,3 +40,1375 @@ FOREIGN KEY ("cart_id")
   [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (20.7ms)[0m  [1m[34mSELECT "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (2.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Raisin"], ["price", 6], ["created_at", "2020-06-15 20:46:35.222916"], ["updated_at", "2020-06-15 20:46:35.222916"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Apricots"], ["price", 3], ["created_at", "2020-06-15 20:46:35.236575"], ["updated_at", "2020-06-15 20:46:35.236575"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Achacha"], ["price", 4], ["created_at", "2020-06-15 20:46:35.245041"], ["updated_at", "2020-06-15 20:46:35.245041"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Sardines"], ["price", 6], ["created_at", "2020-06-15 20:46:35.252112"], ["updated_at", "2020-06-15 20:46:35.252112"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vermicelli Noodles"], ["price", 8], ["created_at", "2020-06-15 20:46:35.258228"], ["updated_at", "2020-06-15 20:46:35.258228"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Greenwheat Freekeh"], ["price", 3], ["created_at", "2020-06-15 20:46:35.265164"], ["updated_at", "2020-06-15 20:46:35.265164"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Oregano"], ["price", 2], ["created_at", "2020-06-15 20:46:35.271215"], ["updated_at", "2020-06-15 20:46:35.271215"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (2.9ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Omega Spread"], ["price", 7], ["created_at", "2020-06-15 20:46:35.277334"], ["updated_at", "2020-06-15 20:46:35.277334"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Cranberry"], ["price", 8], ["created_at", "2020-06-15 20:46:35.294471"], ["updated_at", "2020-06-15 20:46:35.294471"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Redfish"], ["price", 7], ["created_at", "2020-06-15 20:46:35.304169"], ["updated_at", "2020-06-15 20:46:35.304169"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/products" for ::1 at 2020-06-15 13:47:09 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8:in `index'
+Completed 200 OK in 56ms (Views: 42.4ms | ActiveRecord: 1.4ms | Allocations: 7532)
+
+
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.5ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 2]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 3]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 4]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 6]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 7]]
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.5ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 8]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.7ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 9]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 10]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[36mCartProduct Load (0.3ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (1.2ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Chicken Stock"], ["price", 6], ["created_at", "2020-06-15 21:35:53.088617"], ["updated_at", "2020-06-15 21:35:53.088617"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Snowpeas"], ["price", 7], ["created_at", "2020-06-15 21:35:53.102049"], ["updated_at", "2020-06-15 21:35:53.102049"]]
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Duck"], ["price", 7], ["created_at", "2020-06-15 21:35:53.113851"], ["updated_at", "2020-06-15 21:35:53.113851"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jicama"], ["price", 5], ["created_at", "2020-06-15 21:35:53.120106"], ["updated_at", "2020-06-15 21:35:53.120106"]]
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Feijoa"], ["price", 3], ["created_at", "2020-06-15 21:35:53.134245"], ["updated_at", "2020-06-15 21:35:53.134245"]]
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Sprouts"], ["price", 4], ["created_at", "2020-06-15 21:35:53.147320"], ["updated_at", "2020-06-15 21:35:53.147320"]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Brie"], ["price", 8], ["created_at", "2020-06-15 21:35:53.165150"], ["updated_at", "2020-06-15 21:35:53.165150"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.6ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pears"], ["price", 0], ["created_at", "2020-06-15 21:35:53.178006"], ["updated_at", "2020-06-15 21:35:53.178006"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (2.0ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Thyme"], ["price", 3], ["created_at", "2020-06-15 21:35:53.195033"], ["updated_at", "2020-06-15 21:35:53.195033"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (5.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yogurt"], ["price", 4], ["created_at", "2020-06-15 21:35:53.204244"], ["updated_at", "2020-06-15 21:35:53.204244"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Wei"], ["password", "J.PetermanCatalog"], ["created_at", "2020-06-15 21:35:53.228448"], ["updated_at", "2020-06-15 21:35:53.228448"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Len"], ["password", "RoyalBakery"], ["created_at", "2020-06-15 21:35:53.236273"], ["updated_at", "2020-06-15 21:35:53.236273"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dylan"], ["password", "Reggies"], ["created_at", "2020-06-15 21:35:53.253586"], ["updated_at", "2020-06-15 21:35:53.253586"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dustin"], ["password", "ChampagneVideo"], ["created_at", "2020-06-15 21:35:53.267112"], ["updated_at", "2020-06-15 21:35:53.267112"]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Milagros"], ["password", "DreamCafe"], ["created_at", "2020-06-15 21:35:53.278351"], ["updated_at", "2020-06-15 21:35:53.278351"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Create (0.6ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 1], ["created_at", "2020-06-15 21:35:53.344823"], ["updated_at", "2020-06-15 21:35:53.344823"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCart Create (0.7ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 2], ["created_at", "2020-06-15 21:35:53.362770"], ["updated_at", "2020-06-15 21:35:53.362770"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 3], ["created_at", "2020-06-15 21:35:53.381296"], ["updated_at", "2020-06-15 21:35:53.381296"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 4], ["created_at", "2020-06-15 21:35:53.393792"], ["updated_at", "2020-06-15 21:35:53.393792"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCart Create (0.5ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 5], ["created_at", "2020-06-15 21:35:53.401741"], ["updated_at", "2020-06-15 21:35:53.401741"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (1.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.9ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 11]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.6ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 12]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 13]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.6ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 14]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.6ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 16]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.5ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 17]]
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 18]]
+  [1m[35m (11.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.9ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 19]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (1.0ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 20]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (1.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (2.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (6.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "cart_products"[0m
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (13.5ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[35m (4.8ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "carts"[0m
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "products"[0m
+  [1m[35m (6.1ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_item_id" ON "acart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_cart_id" ON "acart_products" ("cart_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "acart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "cart_products"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "cart_products"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "cart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "acart_products"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "acart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.9ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_item_id" ON "acart_products" ("item_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_cart_id" ON "acart_products" ("cart_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "acart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "cart_products"[0m
+  [1m[35m (1.1ms)[0m  [1m[35mDROP TABLE "cart_products"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+, CONSTRAINT "fk_rails_d3f0037b6c"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.3ms)[0m  [1m[32mINSERT INTO "cart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "acart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (1.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCartProduct Load (0.3ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "cart_products"[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (3.5ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "carts"[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "products"[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_item_id" ON "acart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_cart_id" ON "acart_products" ("cart_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "acart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "cart_products"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "cart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "cart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "acart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "acart_products"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-15 22:15:10.120653"], ["updated_at", "2020-06-15 22:15:10.120653"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "bf049bd0ee040f6607bf46d46406850b1d5ca5fc"], ["created_at", "2020-06-15 22:15:10.129331"], ["updated_at", "2020-06-15 22:15:10.129331"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "cart_products"[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "carts"[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS "products"[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE IF EXISTS "users"[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA defer_foreign_keys = ON[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_item_id" ON "acart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_acart_products_on_cart_id" ON "acart_products" ("cart_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "acart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "cart_products"[0m
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "cart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer NOT NULL PRIMARY KEY, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "cart_products" ("id","item_id","cart_id","created_at","updated_at")
+                     SELECT "id","item_id","cart_id","created_at","updated_at" FROM "acart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "acart_products"[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA defer_foreign_keys = 0[0m
+  [1m[35m (0.0ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (0)[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-15 22:15:10.219209"], ["updated_at", "2020-06-15 22:15:10.219209"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Update (0.3ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2020-06-15 22:15:10.226608"], ["key", "environment"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "schema_sha1"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "schema_sha1"], ["value", "bf049bd0ee040f6607bf46d46406850b1d5ca5fc"], ["created_at", "2020-06-15 22:15:10.233528"], ["updated_at", "2020-06-15 22:15:10.233528"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185104"]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateUsers (20200615185640)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185640"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCarts (20200615185807)
+  [1m[35m (2.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_ea59a35211"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185807"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCartProducts (20200615185852)
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_d3f0037b6c"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[36mprimary::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185852"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-15 22:34:34.963664"], ["updated_at", "2020-06-15 22:34:34.963664"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Custard Apples"], ["price", 5], ["created_at", "2020-06-15 22:37:22.703566"], ["updated_at", "2020-06-15 22:37:22.703566"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Cashews"], ["price", 3], ["created_at", "2020-06-15 22:37:22.710349"], ["updated_at", "2020-06-15 22:37:22.710349"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vegetable Oil"], ["price", 2], ["created_at", "2020-06-15 22:37:22.715625"], ["updated_at", "2020-06-15 22:37:22.715625"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Barberry"], ["price", 2], ["created_at", "2020-06-15 22:37:22.721778"], ["updated_at", "2020-06-15 22:37:22.721778"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Baking Soda"], ["price", 8], ["created_at", "2020-06-15 22:37:22.727682"], ["updated_at", "2020-06-15 22:37:22.727682"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Chickory"], ["price", 5], ["created_at", "2020-06-15 22:37:22.735202"], ["updated_at", "2020-06-15 22:37:22.735202"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Guava"], ["price", 4], ["created_at", "2020-06-15 22:37:22.740523"], ["updated_at", "2020-06-15 22:37:22.740523"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Milk"], ["price", 0], ["created_at", "2020-06-15 22:37:22.746115"], ["updated_at", "2020-06-15 22:37:22.746115"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Pinto Beans"], ["price", 2], ["created_at", "2020-06-15 22:37:22.752202"], ["updated_at", "2020-06-15 22:37:22.752202"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Capsicum"], ["price", 8], ["created_at", "2020-06-15 22:37:22.759903"], ["updated_at", "2020-06-15 22:37:22.759903"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kyle"], ["password", "HandHBagels"], ["created_at", "2020-06-15 22:37:22.770834"], ["updated_at", "2020-06-15 22:37:22.770834"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Hunter"], ["password", "OhHenry!"], ["created_at", "2020-06-15 22:37:22.776716"], ["updated_at", "2020-06-15 22:37:22.776716"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Rosina"], ["password", "SunshineCarpetCleaners"], ["created_at", "2020-06-15 22:37:22.783492"], ["updated_at", "2020-06-15 22:37:22.783492"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Randa"], ["password", "PendantPublishing"], ["created_at", "2020-06-15 22:37:22.789765"], ["updated_at", "2020-06-15 22:37:22.789765"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Genaro"], ["password", "RoyalBakery"], ["created_at", "2020-06-15 22:37:22.795684"], ["updated_at", "2020-06-15 22:37:22.795684"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Create (0.6ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 1], ["created_at", "2020-06-15 22:37:22.825092"], ["updated_at", "2020-06-15 22:37:22.825092"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 2], ["created_at", "2020-06-15 22:37:22.834960"], ["updated_at", "2020-06-15 22:37:22.834960"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 3], ["created_at", "2020-06-15 22:37:22.843481"], ["updated_at", "2020-06-15 22:37:22.843481"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCart Create (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 4], ["created_at", "2020-06-15 22:37:22.852149"], ["updated_at", "2020-06-15 22:37:22.852149"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCart Create (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 5], ["created_at", "2020-06-15 22:37:22.861454"], ["updated_at", "2020-06-15 22:37:22.861454"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185104"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateUsers (20200615185640)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185640"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCarts (20200615185807)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_ea59a35211"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185807"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCartProducts (20200615185852)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "cartproducts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_ed99374779"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+, CONSTRAINT "fk_rails_aaadd15cc8"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_cartproducts_on_item_id" ON "cartproducts" ("item_id")[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE  INDEX "index_cartproducts_on_cart_id" ON "cartproducts" ("cart_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185852"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-15 22:38:20.902280"], ["updated_at", "2020-06-15 22:38:20.902280"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[36mCartProduct Load (0.3ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCartProduct Load (0.6ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185104"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateUsers (20200615185640)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185640"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCarts (20200615185807)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_ea59a35211"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185807"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCartProducts (20200615185852)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_d3f0037b6c"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185852"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-15 22:43:17.777163"], ["updated_at", "2020-06-15 22:43:17.777163"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Chicken"], ["price", 6], ["created_at", "2020-06-15 22:43:22.788057"], ["updated_at", "2020-06-15 22:43:22.788057"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Peanuts"], ["price", 5], ["created_at", "2020-06-15 22:43:22.794881"], ["updated_at", "2020-06-15 22:43:22.794881"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Fenugreek"], ["price", 6], ["created_at", "2020-06-15 22:43:22.800702"], ["updated_at", "2020-06-15 22:43:22.800702"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.8ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Plums"], ["price", 3], ["created_at", "2020-06-15 22:43:22.807080"], ["updated_at", "2020-06-15 22:43:22.807080"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Soy"], ["price", 4], ["created_at", "2020-06-15 22:43:22.814943"], ["updated_at", "2020-06-15 22:43:22.814943"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Spearmint"], ["price", 8], ["created_at", "2020-06-15 22:43:22.820098"], ["updated_at", "2020-06-15 22:43:22.820098"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Vegetable Oil"], ["price", 5], ["created_at", "2020-06-15 22:43:22.826687"], ["updated_at", "2020-06-15 22:43:22.826687"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Feta"], ["price", 9], ["created_at", "2020-06-15 22:43:22.833350"], ["updated_at", "2020-06-15 22:43:22.833350"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Turmeric"], ["price", 0], ["created_at", "2020-06-15 22:43:22.838956"], ["updated_at", "2020-06-15 22:43:22.838956"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Broccolini"], ["price", 7], ["created_at", "2020-06-15 22:43:22.844926"], ["updated_at", "2020-06-15 22:43:22.844926"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Cierra"], ["password", "PlayNow"], ["created_at", "2020-06-15 22:43:22.855386"], ["updated_at", "2020-06-15 22:43:22.855386"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Marion"], ["password", "ChampagneVideo"], ["created_at", "2020-06-15 22:43:22.861446"], ["updated_at", "2020-06-15 22:43:22.861446"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Christian"], ["password", "Mendy's"], ["created_at", "2020-06-15 22:43:22.867681"], ["updated_at", "2020-06-15 22:43:22.867681"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Aliza"], ["password", "OhHenry!"], ["created_at", "2020-06-15 22:43:22.874163"], ["updated_at", "2020-06-15 22:43:22.874163"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Edward"], ["password", "Sagman,Bennett,Robbins,OppenheimandTaft"], ["created_at", "2020-06-15 22:43:22.879656"], ["updated_at", "2020-06-15 22:43:22.879656"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 1], ["created_at", "2020-06-15 22:43:22.895768"], ["updated_at", "2020-06-15 22:43:22.895768"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCart Create (0.7ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 2], ["created_at", "2020-06-15 22:43:22.903634"], ["updated_at", "2020-06-15 22:43:22.903634"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 3], ["created_at", "2020-06-15 22:43:22.912644"], ["updated_at", "2020-06-15 22:43:22.912644"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 4], ["created_at", "2020-06-15 22:43:22.920458"], ["updated_at", "2020-06-15 22:43:22.920458"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCart Create (0.5ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 5], ["created_at", "2020-06-15 22:43:22.928456"], ["updated_at", "2020-06-15 22:43:22.928456"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.6ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.5ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 4]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 5]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 6]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 7]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.5ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 8]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 9]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 10]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185104"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateUsers (20200615185640)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185640"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCarts (20200615185807)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_ea59a35211"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185807"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCartProducts (20200615185852)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "item_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_d3f0037b6c"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_item_id" ON "cart_products" ("item_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185852"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-15 22:46:52.597526"], ["updated_at", "2020-06-15 22:46:52.597526"]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (1.7ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Calamari"], ["price", 6], ["created_at", "2020-06-15 22:46:57.032966"], ["updated_at", "2020-06-15 22:46:57.032966"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Coconut"], ["price", 8], ["created_at", "2020-06-15 22:46:57.041019"], ["updated_at", "2020-06-15 22:46:57.041019"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Spelt"], ["price", 6], ["created_at", "2020-06-15 22:46:57.047004"], ["updated_at", "2020-06-15 22:46:57.047004"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Barley"], ["price", 1], ["created_at", "2020-06-15 22:46:57.052969"], ["updated_at", "2020-06-15 22:46:57.052969"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ricotta"], ["price", 5], ["created_at", "2020-06-15 22:46:57.059983"], ["updated_at", "2020-06-15 22:46:57.059983"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Guava"], ["price", 3], ["created_at", "2020-06-15 22:46:57.066175"], ["updated_at", "2020-06-15 22:46:57.066175"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "English Spinach"], ["price", 4], ["created_at", "2020-06-15 22:46:57.072539"], ["updated_at", "2020-06-15 22:46:57.072539"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Okra"], ["price", 0], ["created_at", "2020-06-15 22:46:57.078664"], ["updated_at", "2020-06-15 22:46:57.078664"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Turnips"], ["price", 7], ["created_at", "2020-06-15 22:46:57.084471"], ["updated_at", "2020-06-15 22:46:57.084471"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Broccolini"], ["price", 2], ["created_at", "2020-06-15 22:46:57.090769"], ["updated_at", "2020-06-15 22:46:57.090769"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Tressie"], ["password", "HandHBagels"], ["created_at", "2020-06-15 22:46:57.102407"], ["updated_at", "2020-06-15 22:46:57.102407"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lucrecia"], ["password", "Sagman,Bennett,Robbins,OppenheimandTaft"], ["created_at", "2020-06-15 22:46:57.109223"], ["updated_at", "2020-06-15 22:46:57.109223"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jayna"], ["password", "KramericaIndustries"], ["created_at", "2020-06-15 22:46:57.115603"], ["updated_at", "2020-06-15 22:46:57.115603"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dalton"], ["password", "Mendy's"], ["created_at", "2020-06-15 22:46:57.122327"], ["updated_at", "2020-06-15 22:46:57.122327"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Newton"], ["password", "Mendy's"], ["created_at", "2020-06-15 22:46:57.128336"], ["updated_at", "2020-06-15 22:46:57.128336"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 1], ["created_at", "2020-06-15 22:46:57.145453"], ["updated_at", "2020-06-15 22:46:57.145453"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 2], ["created_at", "2020-06-15 22:46:57.152919"], ["updated_at", "2020-06-15 22:46:57.152919"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCart Create (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 3], ["created_at", "2020-06-15 22:46:57.160479"], ["updated_at", "2020-06-15 22:46:57.160479"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 4], ["created_at", "2020-06-15 22:46:57.168106"], ["updated_at", "2020-06-15 22:46:57.168106"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCart Create (0.5ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 5], ["created_at", "2020-06-15 22:46:57.175756"], ["updated_at", "2020-06-15 22:46:57.175756"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.5ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.3ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 4]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.6ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 5]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.5ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 6]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.8ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 7]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.7ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 8]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.4ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 9]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Destroy (0.8ms)[0m  [1m[31mDELETE FROM "products" WHERE "products"."id" = ?[0m  [["id", 10]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (2.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (1.5ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20200615185104)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "price" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185104"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateUsers (20200615185640)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "password" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185640"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCarts (20200615185807)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "carts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_ea59a35211"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_carts_on_user_id" ON "carts" ("user_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185807"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateCartProducts (20200615185852)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "cart_products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer NOT NULL, "cart_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_b6ff2a078a"
+FOREIGN KEY ("product_id")
+  REFERENCES "products" ("id")
+, CONSTRAINT "fk_rails_a4f3e327f3"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_product_id" ON "cart_products" ("product_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cart_products_on_cart_id" ON "cart_products" ("cart_id")[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200615185852"]]
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-06-15 22:48:00.835181"], ["updated_at", "2020-06-15 22:48:00.835181"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mProduct Load (0.8ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Peas"], ["price", 0], ["created_at", "2020-06-15 22:48:04.817235"], ["updated_at", "2020-06-15 22:48:04.817235"]]
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Raisin"], ["price", 4], ["created_at", "2020-06-15 22:48:04.825420"], ["updated_at", "2020-06-15 22:48:04.825420"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.3ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Basil Basmati Rice"], ["price", 4], ["created_at", "2020-06-15 22:48:04.831340"], ["updated_at", "2020-06-15 22:48:04.831340"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "White Flour"], ["price", 5], ["created_at", "2020-06-15 22:48:04.837037"], ["updated_at", "2020-06-15 22:48:04.837037"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Spelt"], ["price", 0], ["created_at", "2020-06-15 22:48:04.843763"], ["updated_at", "2020-06-15 22:48:04.843763"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Almond Oil"], ["price", 0], ["created_at", "2020-06-15 22:48:04.849691"], ["updated_at", "2020-06-15 22:48:04.849691"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Asian Greens"], ["price", 0], ["created_at", "2020-06-15 22:48:04.855414"], ["updated_at", "2020-06-15 22:48:04.855414"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Papaw"], ["price", 5], ["created_at", "2020-06-15 22:48:04.862022"], ["updated_at", "2020-06-15 22:48:04.862022"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.4ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Raisin"], ["price", 5], ["created_at", "2020-06-15 22:48:04.867569"], ["updated_at", "2020-06-15 22:48:04.867569"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (1.1ms)[0m  [1m[32mINSERT INTO "products" ("name", "price", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Rice Syrup"], ["price", 6], ["created_at", "2020-06-15 22:48:04.874427"], ["updated_at", "2020-06-15 22:48:04.874427"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Sandie"], ["password", "VandelayIndustries"], ["created_at", "2020-06-15 22:48:04.886902"], ["updated_at", "2020-06-15 22:48:04.886902"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ariel"], ["password", "Reggies"], ["created_at", "2020-06-15 22:48:04.893574"], ["updated_at", "2020-06-15 22:48:04.893574"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Erwin"], ["password", "ChampagneVideo"], ["created_at", "2020-06-15 22:48:04.899550"], ["updated_at", "2020-06-15 22:48:04.899550"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Faustino"], ["password", "TopoftheMuffintoYou!"], ["created_at", "2020-06-15 22:48:04.905335"], ["updated_at", "2020-06-15 22:48:04.905335"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Eloy"], ["password", "ChampagneVideo"], ["created_at", "2020-06-15 22:48:04.915380"], ["updated_at", "2020-06-15 22:48:04.915380"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCart Create (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 1], ["created_at", "2020-06-15 22:48:04.934782"], ["updated_at", "2020-06-15 22:48:04.934782"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCart Create (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 2], ["created_at", "2020-06-15 22:48:04.942104"], ["updated_at", "2020-06-15 22:48:04.942104"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCart Create (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 3], ["created_at", "2020-06-15 22:48:04.949372"], ["updated_at", "2020-06-15 22:48:04.949372"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mCart Create (0.6ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 4], ["created_at", "2020-06-15 22:48:04.956660"], ["updated_at", "2020-06-15 22:48:04.956660"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mCart Create (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("user_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["user_id", 5], ["created_at", "2020-06-15 22:48:04.964469"], ["updated_at", "2020-06-15 22:48:04.964469"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/products" for ::1 at 2020-06-15 15:56:28 -0700
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8:in `index'
+Completed 200 OK in 15ms (Views: 10.8ms | ActiveRecord: 1.0ms | Allocations: 7532)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-06-15 15:56:28 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/productcarts" for ::1 at 2020-06-15 15:56:35 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/productcarts"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/cartproducts" for ::1 at 2020-06-15 15:56:39 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cartproducts"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/cart_products" for ::1 at 2020-06-15 15:56:47 -0700
+Processing by CartProductsController#index as HTML
+  [1m[36mCartProduct Load (0.4ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  ↳ app/controllers/cart_products_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 2.0ms | Allocations: 2160)
+
+
+Started GET "/uers" for ::1 at 2020-06-15 15:57:09 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/uers"):
+  
+actionpack (6.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/users" for ::1 at 2020-06-15 15:57:12 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.9ms | Allocations: 5084)
+
+
+Started GET "/carts" for ::1 at 2020-06-15 15:57:17 -0700
+Processing by CartsController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  ↳ app/controllers/carts_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 8.1ms | ActiveRecord: 1.2ms | Allocations: 5550)
+
+
+Started GET "/products" for ::1 at 2020-06-15 15:57:24 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.5ms | Allocations: 2101)
+
+
+Started GET "/" for ::1 at 2020-06-15 16:05:17 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/justinlanglinais/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/justinlanglinais/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.8ms | Allocations: 201)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 867)
+
+
+Started GET "/cart_products" for ::1 at 2020-06-15 16:05:37 -0700
+Processing by CartProductsController#index as HTML
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  ↳ app/controllers/cart_products_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 913)
+
+
+Started GET "/cart_products" for ::1 at 2020-06-15 16:16:24 -0700
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CartProductsController#index as HTML
+  [1m[36mCartProduct Load (1.4ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  ↳ app/controllers/cart_products_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 1.4ms | Allocations: 813)
+
+
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mCartProduct Load (0.3ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT "carts".* FROM "carts" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
