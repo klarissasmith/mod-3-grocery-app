@@ -10,8 +10,8 @@ User.destroy_all
 Cart.destroy_all
 CartProduct.destroy_all
 
-10.times do
-    Product.create(name: Faker::Food.ingredient, price: rand(10).to_f)
+20.times do
+    Product.create(name: Faker::Food.ingredient, price: rand(0.99..9.99).to_f, img_url: "https://picsum.photos/200")
 end
 
 5.times do
@@ -24,6 +24,6 @@ Cart.create(user_id: 3)
 Cart.create(user_id: 4)
 Cart.create(user_id: 5)
 
-30.times do
-    CartProduct.create(cart_id: rand(5), product_id: rand(10))
+40.times do
+    CartProduct.create(cart_id: rand(1..5), product_id: rand(1..10))
 end
