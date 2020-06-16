@@ -4349,3 +4349,12 @@ Processing by ProductsController#index as */*
 Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.2ms | Allocations: 3739)
 
 
+Started GET "/products" for ::1 at 2020-06-16 14:45:01 -0700
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 43ms (Views: 25.7ms | ActiveRecord: 5.6ms | Allocations: 9178)
+
+
