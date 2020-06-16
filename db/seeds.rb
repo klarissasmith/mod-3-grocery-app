@@ -24,9 +24,6 @@ Cart.create(user_id: 3)
 Cart.create(user_id: 4)
 Cart.create(user_id: 5)
 
-u = User.all.count
-p = Product.all.count
-
 30.times do
     CartProduct.create(cart_id: rand(5), product_id: rand(10))
 end
