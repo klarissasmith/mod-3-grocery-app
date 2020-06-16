@@ -4,8 +4,8 @@ class ProductsController < ApplicationController
   # GET /products
   def index
     @products = Product.all
-
-    render json: @products
+    render json: ProductSerializer.new(@product).to_serialized_json
+    # render json: @products
   end
 
   # GET /products/1

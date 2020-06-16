@@ -1720,3 +1720,166 @@ Processing by CartProductsController#index as HTML
 Completed 200 OK in 19ms (Views: 8.8ms | ActiveRecord: 1.0ms | Allocations: 7663)
 
 
+Started GET "/cart_products" for ::1 at 2020-06-15 18:07:26 -0700
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CartProductsController#index as HTML
+  [1m[36mCartProduct Load (1.6ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  ↳ app/controllers/cart_products_controller.rb:8:in `index'
+Completed 200 OK in 55ms (Views: 34.3ms | ActiveRecord: 2.6ms | Allocations: 7663)
+
+
+Started GET "/products" for ::1 at 2020-06-15 18:07:31 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (2.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8:in `index'
+Completed 200 OK in 63ms (Views: 25.6ms | ActiveRecord: 6.3ms | Allocations: 6969)
+
+
+Started GET "/users" for ::1 at 2020-06-15 18:08:04 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 17.5ms | ActiveRecord: 2.7ms | Allocations: 5015)
+
+
+Started GET "/carts" for ::1 at 2020-06-15 18:08:41 -0700
+Processing by CartsController#index as HTML
+  [1m[36mCart Load (3.9ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  ↳ app/controllers/carts_controller.rb:8:in `index'
+Completed 200 OK in 102ms (Views: 71.5ms | ActiveRecord: 9.8ms | Allocations: 5530)
+
+
+Started GET "/cart_products" for ::1 at 2020-06-15 18:08:51 -0700
+Processing by CartProductsController#index as HTML
+  [1m[36mCartProduct Load (0.3ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  ↳ app/controllers/cart_products_controller.rb:8:in `index'
+Completed 200 OK in 62ms (Views: 61.3ms | ActiveRecord: 0.3ms | Allocations: 2751)
+
+
+Started GET "/cart_products/1" for ::1 at 2020-06-15 18:09:36 -0700
+Processing by CartProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products" WHERE "cart_products"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/cart_products_controller.rb:44:in `set_cart_product'
+Completed 200 OK in 36ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 2535)
+
+
+Started GET "/cart_products/28" for ::1 at 2020-06-15 18:09:42 -0700
+Processing by CartProductsController#show as HTML
+  Parameters: {"id"=>"28"}
+  [1m[36mCartProduct Load (0.2ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products" WHERE "cart_products"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/cart_products_controller.rb:44:in `set_cart_product'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms | Allocations: 623)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find CartProduct with 'id'=28):
+  
+app/controllers/cart_products_controller.rb:44:in `set_cart_product'
+Started GET "/cart_products/" for ::1 at 2020-06-15 18:10:47 -0700
+Processing by CartProductsController#index as HTML
+  [1m[36mCartProduct Load (0.6ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  ↳ app/controllers/cart_products_controller.rb:8:in `index'
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.6ms | Allocations: 2797)
+
+
+Started GET "/products/" for ::1 at 2020-06-15 18:10:51 -0700
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.5ms | Allocations: 2086)
+
+
+Started GET "/products/" for ::1 at 2020-06-15 18:18:04 -0700
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (3.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:8:in `index'
+Completed 200 OK in 14ms (Views: 10.3ms | ActiveRecord: 3.7ms | Allocations: 2104)
+
+
+Started GET "/users/" for ::1 at 2020-06-15 18:18:39 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 1.4ms | Allocations: 1491)
+
+
+Started GET "/users/2" for ::1 at 2020-06-15 18:18:48 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44:in `set_user'
+Completed 200 OK in 9ms (Views: 0.8ms | ActiveRecord: 2.7ms | Allocations: 868)
+
+
+Started GET "/users" for ::1 at 2020-06-15 18:18:59 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 1.0ms | Allocations: 1476)
+
+
+Started GET "/cart_products" for ::1 at 2020-06-15 18:19:04 -0700
+Processing by CartProductsController#index as HTML
+  [1m[36mCartProduct Load (1.9ms)[0m  [1m[34mSELECT "cart_products".* FROM "cart_products"[0m
+  ↳ app/controllers/cart_products_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 1.9ms | Allocations: 2763)
+
+
+Started GET "/" for ::1 at 2020-06-16 10:44:43 -0700
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/justinlanglinais/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/justinlanglinais/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 11.7ms | Allocations: 315)
+Completed 200 OK in 26ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 1596)
+
+
+Started GET "/products" for ::1 at 2020-06-16 10:44:47 -0700
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 1917)
+
+
+  
+SyntaxError (/Users/justinlanglinais/Development/code/mod3/mod-3-grocery-app/app/services/product_serializer.rb:9: syntax error, unexpected end, expecting ')'
+    end
+    ^~~):
+  
+app/services/product_serializer.rb:9: syntax error, unexpected end, expecting ')'
+app/services/product_serializer.rb:9: syntax error, unexpected end, expecting ')'
+app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for ::1 at 2020-06-16 10:45:01 -0700
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 211)
+
+
+  
+SyntaxError (/Users/justinlanglinais/Development/code/mod3/mod-3-grocery-app/app/services/product_serializer.rb:9: syntax error, unexpected end, expecting ')'
+    end
+    ^~~):
+  
+app/services/product_serializer.rb:9: syntax error, unexpected end, expecting ')'
+app/services/product_serializer.rb:9: syntax error, unexpected end, expecting ')'
+app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for ::1 at 2020-06-16 10:45:18 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (1.4ms)[0m  [1m[34mSELECT "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mCACHE Product Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 0.0ms | Allocations: 80546)
+
+
+  [1m[36mCACHE Product Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products" LIMIT ?[0m  [["LIMIT", 11]]
+  
+NameError (undefined local variable or method `product' for #<ProductsController:0x00007fcf73de1288>
+Did you mean?  @products):
+  
+app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for ::1 at 2020-06-16 10:45:32 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as HTML
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 1516)
+
+
