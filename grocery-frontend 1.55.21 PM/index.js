@@ -1,5 +1,6 @@
 let PRODUCTS_URL = "http://localhost:3000/products"
 
+const bagBtn = document.querySelector(".bag-btn");
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart")
 const clearCartBtn = document.querySelector(".empty-cart")
@@ -49,3 +50,27 @@ class Display{
 class Storage{
 
 }
+
+// "add to cart" button
+bagBtn.addEventListener("click", () => {
+    console.log("Hooray");
+    fetch("http://localhost:3000/carts/1")
+    .then(resp => resp.json())
+    .then(json => console.log(json))
+});
+
+// build a product card for the cartContent
+function buildCartCard (obj) {
+    let div = document.createElement("div");
+    div.className = "cart-item";
+    let img = document.createElement("img");
+    img.src = obj.img_url;
+    let div1 = document.createElement("div");
+    let productName = document.createElement("h4");
+    productName.innerText = obj.name;
+    let productPrice = document.createElement("h5");
+    productPrice.innerText = obj.price;
+    let deleteItem = document.createElement("span");
+    deleteItem.className = "remove-item";
+
+};
