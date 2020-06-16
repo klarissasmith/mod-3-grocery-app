@@ -11,7 +11,8 @@ Cart.destroy_all
 CartProduct.destroy_all
 
 20.times do
-    Product.create(name: Faker::Food.ingredient, price: rand(0.99..9.99).to_f, img_url: "https://picsum.photos/200")
+    randomNum = Random.new
+    Product.create(name: Faker::Food.ingredient, price: randomNum.rand(0.99..9.99).round(2), img_url: "https://picsum.photos/200")
 end
 
 5.times do
