@@ -98,9 +98,3 @@ function buildCartCard (obj) {
     div.appendChild(div2);
     cartContent.appendChild(div);
 };
-
-function cartItemIncrement (obj) {
-    obj.addEventListener("click", {
-        
-    });
-};

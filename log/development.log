@@ -4490,3 +4490,27 @@ Processing by ProductsController#index as */*
 Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.3ms | Allocations: 3038)
 
 
+Started GET "/products" for ::1 at 2020-06-16 18:02:53 -0700
+  [1m[35m (3.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 33ms (Views: 16.7ms | ActiveRecord: 2.1ms | Allocations: 9180)
+
+
+Started GET "/products" for ::1 at 2020-06-16 18:03:39 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (2.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 2.0ms | Allocations: 3038)
+
+
+Started GET "/products/4" for ::1 at 2020-06-16 18:03:49 -0700
+Processing by ProductsController#show as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/products_controller.rb:44:in `set_product'
+Completed 200 OK in 36ms (Views: 0.7ms | ActiveRecord: 0.7ms | Allocations: 2597)
+
+
