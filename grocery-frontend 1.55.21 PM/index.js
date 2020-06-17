@@ -1,4 +1,5 @@
-let PRODUCTS_URL = "http://localhost:3000/products"
+let PRODUCTS_URL = "http://localhost:3000/products";
+let CARTPRODUCTS_URL = "http://localhost:3000/cart_products/";
 
 const bagBtn = document.querySelector(".bag-btn");
 const cartBtn = document.querySelector(".cart-btn");
@@ -93,7 +94,15 @@ function fetchProducts(){
 }
 
 function fetchCart () {
-    
+    fetch(CARTPRODUCTS_URL)
+        .then(resp => resp.json())
+        .then(json => json.forEach( e => {
+            if (e.cart_id === 1) {
+                fetch(`http://localhost:3000/products/${e.product_id}`)
+                .then(resp => resp.json())
+                .then(json => buildCartCard(json))
+            }
+        }))
 };
 
 
@@ -179,6 +188,3 @@ function buildCartCard (obj) {
 };
 
 // }
-
-
- 
