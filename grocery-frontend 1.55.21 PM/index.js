@@ -2,90 +2,86 @@ let PRODUCTS_URL = "http://localhost:3000/products"
 
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart")
-const clearCartBtn = document.querySelector(".empty-cart")
+const emptyCartBtn = document.querySelector(".empty-cart")
 const cartDOM = document.querySelector(".cart")
 const cartOverlay = document.querySelector(".cart-overlay")
-const cartItems = document.querySelector(".cart-items")
+const cartItems = document.querySelector(".cart-item")
 const cartTotal = document.querySelector(".cart-total")
 const cartContent = document.querySelector(".cart-content")
 const productsDOM = document.querySelector(".products-all")
 
-let cart = []
-function fetchProducts() {
-    fetch(PRODUCTS_URL).then(response => response.json()).then(json => json.forEach(product => {
-        renderProducts(product)
-    }))
-};
-function renderProducts(product) {
-    let article = document.createElement("article")
-    article.className = "product"
-    productsDOM.appendChild(article)
-    
-    let div = document.createElement("div")
-    div.className = "img-container"
-    let productBtn = document.createElement("button")
-    productBtn.className = "bag-btn"
-    productBtn.setAttribute("data-id", "1")
-    let i = document.createElement("i")
-    i.className = "fas fa-shopping-cart"
-    productBtn.appendChild(i)
-    i.innerText = " Add to Cart"
-    div.appendChild(productBtn)
-    let img = document.createElement("img")
-    div.appendChild(img)
-    // img.src = "./images/apples.jpg"
-    img.src = "./images/groceries2.jpg"
-    img.class = "product-img"
-    img.alt = product.name
-    article.appendChild(div)
-    
-    
 
-    let h3 = document.createElement("h3")
-    h3.innerText = product.name
-    article.appendChild(h3)
-
-    //article => div(img-container) => img(src pic), button => 
-    
-
-
-    
-
-  
-    let h4 = document.createElement("h4")
-    h4.innerText = `$${product.price}`
-    article.appendChild(h4)
-}
 document.addEventListener("DOMContentLoaded", () => {
-    fetchProducts()
-    
+    // const display = new Display();
+    // const products = new Products()
+fetchProducts()
+
+// get all products
+// products.getProducts().then(data => console.log(data.name))
+//Just testing to see what it will return
+cartBtn.addEventListener("click", () => {
+    cartOverlay.classList.add("transparentBcg")
+    cartDOM.classList.add("showCart")
+})
+closeCartBtn.addEventListener("click", () => {
+    cartOverlay.classList.remove("transparentBcg")
+    cartDOM.classList.remove("showCart")
+})
+
+emptyCartBtn.addEventListener("click", () => {
+    cartItems.remove("cart-content")
+})
+//delete function is not persisting, don't think I can use a POST b/c it would change the displayed items. Maybe local storage or store the products in cart JSON?
+
 
 
 })
 
 
+function renderProduct(product){
+   let article = document.createElement("article")
+   article.className = "product"
+   productsDOM.appendChild(article)
+
+
+   let img = document.createElement("img")
+   let div = document.createElement("div")
+   let button = document.createElement("button")
+   let i = document.createElement("i")
+   i.className = "fas fa-shopping-cart"
+   i.innerText = "add to cart"
+   button.className = "bag-btn"
+   
+   div.className = "img-container"
+   img.className = "product-img"
+   img.alt = "Product Not Available"
+   img.src = product.img_url
+   div.appendChild(img)
+   article.appendChild(div)
+    button.appendChild(i)
+   div.appendChild(button)
+
+   let h3 = document.createElement("h3")
+   h3.innerText = product.name
+   article.appendChild(h3)
+
+   let h4 = document.createElement("h4")
+   h4.textContent = `$${product.price}`
+   article.appendChild(h4)
 
 
 
 
 
 
+}
+function fetchProducts(){
+    fetch(PRODUCTS_URL)
+        .then(resp => resp.json())
+        .then(json => json.forEach(e => {renderProduct(e)}))
+            
+}
 
-
-
-
-
-
-
-//---Commented Out Classes ----
-
-// const display = new Display();
-    // const products = new Products()
-
-
-// get all products
-// products.getProducts().then(data => console.log(data.forEach(e => console.log(e.name))))
-//Just testing to see what it will return
 
 //get products
 // class Products{
@@ -93,18 +89,13 @@ document.addEventListener("DOMContentLoaded", () => {
 //         try{
 //             let result = await fetch(PRODUCTS_URL)
 //             let data = await result.json();
-//             let products = data
+//             let products = data;
+
 //             return data;
 //         }catch (error){
 //             console.log(error);
 //         }
 //     }
 // }
+//display products
 
-
-
-//storage
-
-// class Storage{
-
-// }
