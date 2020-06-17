@@ -39,36 +39,43 @@ emptyCartBtn.addEventListener("click", () => {
 })
 
 
-function renderProduct(product){
-   let article = document.createElement("article")
-   article.className = "product"
-   productsDOM.appendChild(article)
+function renderProduct(product) {
+    let article = document.createElement("article")
+    article.className = "product"
+    productsDOM.appendChild(article)
 
 
-   let img = document.createElement("img")
-   let div = document.createElement("div")
-   let button = document.createElement("button")
-   let i = document.createElement("i")
-   i.className = "fas fa-shopping-cart"
-   i.innerText = "add to cart"
-   button.className = "bag-btn"
+    let img = document.createElement("img")
+    let div = document.createElement("div")
+    let button = document.createElement("button")
+    let i = document.createElement("i")
+    i.className = "fas fa-shopping-cart"
+    i.innerText = "add to cart"
+    button.className = "bag-btn"
+    // "add to cart" button
+    button.addEventListener("click", () => {
+        console.log("You clicked the button!");
+        fetch("http://localhost:3000/products/4")
+        .then(resp => resp.json())
+        .then(json => buildCartCard(json))
+    });
    
-   div.className = "img-container"
-   img.className = "product-img"
-   img.alt = "Product Not Available"
-   img.src = product.img_url
-   div.appendChild(img)
-   article.appendChild(div)
-    button.appendChild(i)
-   div.appendChild(button)
+    div.className = "img-container"
+    img.className = "product-img"
+    img.alt = "Product Not Available"
+    img.src = product.img_url
+    div.appendChild(img)
+    article.appendChild(div)
+        button.appendChild(i)
+    div.appendChild(button)
 
-   let h3 = document.createElement("h3")
-   h3.innerText = product.name
-   article.appendChild(h3)
+    let h3 = document.createElement("h3")
+    h3.innerText = product.name
+    article.appendChild(h3)
 
-   let h4 = document.createElement("h4")
-   h4.textContent = `$${product.price}`
-   article.appendChild(h4)
+    let h4 = document.createElement("h4")
+    h4.textContent = `$${product.price}`
+    article.appendChild(h4)
 
 
 
@@ -99,22 +106,16 @@ function fetchProducts(){
 //     }
 // }
 //display products
-master
+
 
 
 //storage
 
 // class Storage{
 
-}
 
-// "add to cart" button
-bagBtn.addEventListener("click", () => {
-    console.log("You clicked the button!");
-    fetch("http://localhost:3000/products/4")
-    .then(resp => resp.json())
-    .then(json => console.log(json))
-});
+
+
 
 // build a product card for the cartContent
 function buildCartCard (obj) {
@@ -141,11 +142,15 @@ function buildCartCard (obj) {
     chevUp.className = "fas fa-chevron-up";
     chevUp.addEventListener("click", () => {
         amount.qty ++;
+        amount.innerText = `${amount.qty}`;
+        console.log("Clicked increment!");
     });
     let chevDown = document.createElement("i");
     chevDown.className = "fas fa-chevron-down";
     chevDown.addEventListener("click", () => {
         amount.qty --;
+        amount.innerText = `${amount.qty}`;
+        console.log("Clicked decrement!");
     });
     div2.appendChild(chevUp);
     div2.appendChild(amount);
@@ -159,4 +164,4 @@ function buildCartCard (obj) {
 // }
 
 
- master
+ 
