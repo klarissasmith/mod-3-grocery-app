@@ -1,4 +1,6 @@
-let PRODUCTS_URL = "http://localhost:3000/products"
+let PRODUCTS_URL = "http://localhost:3000/products";
+let CARTPRODUCTS_URL = "http://localhost:3000/cart_products";
+let CURRENT_CART = 3;
 
 const bagBtn = document.querySelector(".bag-btn");
 const cartBtn = document.querySelector(".cart-btn");
@@ -57,10 +59,28 @@ function renderProduct(product) {
     // "add to cart" button
     button.addEventListener("click", () => {
         console.log(`You added ${product.name} to your cart!`);
-        fetch(`http://localhost:3000/products/${product.id}`)
+        fetch(`http://localhost:3000/cart_products`)
         .then(resp => resp.json())
-        .then(json => buildCartCard(json))
-    });
+        .then(json => json.forEach( e => {
+            if (e.cart_id === CURRENT_CART && e.product_id === product.id) {
+                console.log("This product is already in your cart!");
+                return;
+            }}))
+        fetch(`http://localhost:3000/cart_products`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type" : "application/json",
+                    },
+                    body: JSON.stringify({
+                        "quantity" : 1,
+                        "product_id" : product.id,
+                        "cart_id" : CURRENT_CART
+                    })
+            })
+            .then(resp => resp.json())
+            .then(json => console.log(json))
+        }
+    );
    
     div.className = "img-container"
     img.className = "product-img"
@@ -91,6 +111,18 @@ function fetchProducts(){
         .then(json => json.forEach(e => {renderProduct(e)}))
             
 }
+
+function fetchCart () {
+    fetch(CARTPRODUCTS_URL)
+        .then(resp => resp.json())
+        .then(json => json.forEach( e => {
+            if (e.cart_id === CURRENT_CART) {
+                fetch(`http://localhost:3000/products/${e.product_id}`)
+                .then(resp => resp.json())
+                .then(json => buildCartCard(json))
+            }
+        }))
+};
 
 
 //get products
@@ -175,6 +207,3 @@ function buildCartCard (obj) {
 };
 
 // }
-
-
- 

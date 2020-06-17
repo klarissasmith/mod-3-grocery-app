@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 2020_06_15_185852) do
 
   create_table "cart_products", force: :cascade do |t|
+    t.integer "quantity"
     t.integer "product_id", null: false
     t.integer "cart_id", null: false
     t.datetime "created_at", precision: 6, null: false
