@@ -92,6 +92,10 @@ function fetchProducts(){
             
 }
 
+function fetchCart () {
+    
+};
+
 
 //get products
 // class Products{
@@ -175,23 +179,6 @@ function buildCartCard (obj) {
 };
 
 // }
-function testCartAdd () {
-    fetch("http://localhost:3000/carts/1", {
-        method: "PATCH",
-        headers: {
-            "Content-Type": "application/json",
-            Accepts: "application/json"
-        },
-        body: {
-            "contents": {
-                "name" : "Potato",
-                "price" : 1.99,
-                "quantity" : 3
-            }
-        }
-    })
-    .then(resp => resp.json())
-    .then(json => console.log(json))
-};
+
 
  
