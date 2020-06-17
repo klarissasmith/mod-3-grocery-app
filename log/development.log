@@ -4349,6 +4349,7 @@ Processing by ProductsController#index as */*
 Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.2ms | Allocations: 3739)
 
 
+<<<<<<< HEAD
 Started GET "/products" for ::1 at 2020-06-16 14:44:18 -0700
   [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -4940,5 +4941,425 @@ Processing by ProductsController#index as */*
   [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
   ↳ app/controllers/products_controller.rb:7:in `index'
 Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.5ms | Allocations: 3739)
+=======
+Started GET "/products" for ::1 at 2020-06-16 15:40:18 -0700
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.8ms | Allocations: 10323)
+
+
+Started GET "/products" for ::1 at 2020-06-16 15:46:13 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 3756)
+
+
+Started GET "/products" for ::1 at 2020-06-16 15:47:09 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3756)
+
+
+Started GET "/products" for ::1 at 2020-06-16 15:52:05 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3756)
+
+
+Started GET "/products" for ::1 at 2020-06-16 15:52:53 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 15:58:16 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.1ms | Allocations: 3742)
+
+
+Started GET "/products" for ::1 at 2020-06-16 15:58:29 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 15:59:07 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3756)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:00:38 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:00:58 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:01:00 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:01:14 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:33:34 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 3759)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:39:26 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 3759)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:40:10 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:41:11 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.2ms | Allocations: 3742)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:43:14 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:49:31 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 3759)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:50:13 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:50:48 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:51:23 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:54:26 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:54:58 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:58:30 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:58:38 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:59:50 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 16:59:59 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms | Allocations: 3742)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:08:11 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 3759)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:08:12 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:09:46 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:09:48 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:09:58 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:10:05 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:10:21 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:10:40 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.7ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:13:57 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (1.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 1.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:15:56 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.2ms | Allocations: 3742)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:16:44 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:17:12 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:17:37 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:17:48 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:18:43 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:19:12 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:19:13 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:20:33 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:20:34 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:20:52 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:20:53 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:21:17 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 3742)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:22:04 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:22:54 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:24:06 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:26:21 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:27:02 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:27:55 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:30:16 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.2ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:30:32 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 3739)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:55:38 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 3759)
+
+
+Started GET "/products" for ::1 at 2020-06-16 17:56:09 -0700
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/products_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.1ms | Allocations: 3740)
+>>>>>>> upstream/master
 
 
