@@ -53,7 +53,7 @@ class Storage{
 
 // "add to cart" button
 bagBtn.addEventListener("click", () => {
-    console.log("Hooray");
+    console.log("You clicked the button!");
     fetch("http://localhost:3000/products/4")
     .then(resp => resp.json())
     .then(json => console.log(json))
@@ -76,13 +76,20 @@ function buildCartCard (obj) {
     div1.appendChild(productPrice);
     div1.appendChild(deleteItem);
     let div2 = document.createElement("div");
-    let chevUp = document.createElement("i");
-    chevUp.className = "fas fa-chevron-up";
     let amount = document.createElement("p");
     amount.className = "item-amount";
-    amount.innerText = "1";
+    amount.qty = 1;
+    amount.innerText = `${amount.qty}`;
+    let chevUp = document.createElement("i");
+    chevUp.className = "fas fa-chevron-up";
+    chevUp.addEventListener("click", () => {
+        amount.qty ++;
+    });
     let chevDown = document.createElement("i");
     chevDown.className = "fas fa-chevron-down";
+    chevDown.addEventListener("click", () => {
+        amount.qty --;
+    });
     div2.appendChild(chevUp);
     div2.appendChild(amount);
     div2.appendChild(chevDown);
@@ -90,4 +97,10 @@ function buildCartCard (obj) {
     div.appendChild(div1);
     div.appendChild(div2);
     cartContent.appendChild(div);
+};
+
+function cartItemIncrement (obj) {
+    obj.addEventListener("click", {
+        
+    });
 };
