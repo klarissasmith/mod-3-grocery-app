@@ -4,7 +4,7 @@ class ProductsController < ApplicationController
   # GET /products
   def index
     @products = Product.all
-    render json: @products, only: [:name, :price, :img_url]
+    render json: @products, only: [:id, :name, :price, :img_url]
     # render json: @products
   end
 
