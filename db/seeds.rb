@@ -25,6 +25,6 @@ Cart.create(user_id: 3)
 Cart.create(user_id: 4)
 Cart.create(user_id: 5)
 
-40.times do
-    CartProduct.create(cart_id: rand(1..5), product_id: rand(1..10), quantity: rand(1..10))
+10.times do
+    CartProduct.create(cart_id: rand(1..5), product_id: rand(1..20), quantity: rand(1..10))
 end
