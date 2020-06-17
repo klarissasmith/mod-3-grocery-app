@@ -6,6 +6,7 @@ const closeCartBtn = document.querySelector(".close-cart")
 const emptyCartBtn = document.querySelector(".empty-cart")
 const cartDOM = document.querySelector(".cart")
 const cartOverlay = document.querySelector(".cart-overlay")
+const cartList = document.querySelector(".cart-list")
 const cartItems = document.querySelector(".cart-item")
 const cartTotal = document.querySelector(".cart-total")
 const cartContent = document.querySelector(".cart-content")
@@ -170,7 +171,7 @@ function buildCartCard (obj) {
     div.appendChild(img);
     div.appendChild(div1);
     div.appendChild(div2);
-    cartContent.appendChild(div);
+    cartList.appendChild(div);
 };
 
 // }

@@ -214,13 +214,7 @@ body {
     margin-bottom: 2rem;
   }
   /*---------- Cart Item -------------------- */
-  .cart-list {
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto 1fr auto;
-    grid-column-gap: 1.5rem;
-    margin: 1.5rem 0;
-  }
+  
   .cart-item {
     display: grid;
     align-items: center;
