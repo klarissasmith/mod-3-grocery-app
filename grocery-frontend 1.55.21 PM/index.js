@@ -52,10 +52,11 @@ function renderProduct(product) {
     i.className = "fas fa-shopping-cart"
     i.innerText = "add to cart"
     button.className = "bag-btn"
+    button.id = product.id
     // "add to cart" button
     button.addEventListener("click", () => {
-        console.log("You clicked the button!");
-        fetch("http://localhost:3000/products/4")
+        console.log(`You added ${product.name} to your cart!`);
+        fetch(`http://localhost:3000/products/${product.id}`)
         .then(resp => resp.json())
         .then(json => buildCartCard(json))
     });
@@ -121,23 +122,32 @@ function fetchProducts(){
 function buildCartCard (obj) {
     let div = document.createElement("div");
     div.className = "cart-item";
+
     let img = document.createElement("img");
     img.src = "./images/apples.jpg";
+
     let div1 = document.createElement("div");
+
     let productName = document.createElement("h4");
     productName.innerText = obj.name;
+
     let productPrice = document.createElement("h5");
     productPrice.innerText = obj.price;
+
     let deleteItem = document.createElement("span");
     deleteItem.className = "remove-item";
+
     div1.appendChild(productName);
     div1.appendChild(productPrice);
     div1.appendChild(deleteItem);
+
     let div2 = document.createElement("div");
+
     let amount = document.createElement("p");
     amount.className = "item-amount";
     amount.qty = 1;
     amount.innerText = `${amount.qty}`;
+
     let chevUp = document.createElement("i");
     chevUp.className = "fas fa-chevron-up";
     chevUp.addEventListener("click", () => {
@@ -145,6 +155,7 @@ function buildCartCard (obj) {
         amount.innerText = `${amount.qty}`;
         console.log("Clicked increment!");
     });
+
     let chevDown = document.createElement("i");
     chevDown.className = "fas fa-chevron-down";
     chevDown.addEventListener("click", () => {
@@ -152,6 +163,7 @@ function buildCartCard (obj) {
         amount.innerText = `${amount.qty}`;
         console.log("Clicked decrement!");
     });
+
     div2.appendChild(chevUp);
     div2.appendChild(amount);
     div2.appendChild(chevDown);
