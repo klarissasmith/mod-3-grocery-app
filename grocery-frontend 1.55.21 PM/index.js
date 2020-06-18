@@ -61,13 +61,8 @@ function renderProduct(product) {
         fetch(`http://localhost:3000/cart_products`)
         .then(resp => resp.json())
         // .then(json => console.log(json))
-        .then(json => json.forEach( e => {
-            if (e.cart_id === CURRENT_CART && e.product_id === product.id) {
-                console.log(`${product.name} is already in your cart!`);
-                return;
-            }
-        }))
-        console.log(`Adding ${product.name} to your cart...`)
+        .then(json => cartProductExistCheck(json, product))
+        // console.log(`Adding ${product.name} to your cart...`)
         
             // fetch(`http://localhost:3000/cart_products`, {
             //     method: "POST",
@@ -129,6 +124,18 @@ function fetchCart () {
         }))
 };
 
+function cartProductExistCheck (json, product) {
+    let exists = false;
+    json.forEach( e => {
+        if (e.cart_id === CURRENT_CART && e.product_id === product.id) {
+            console.log(`${product.name} is already in your cart!`);
+            exists = !exists;
+            // console.log(exists);
+            return;
+        }
+    })
+    console.log(exists);
+}
 
 //get products
 // class Products{
