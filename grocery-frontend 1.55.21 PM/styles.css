@@ -93,6 +93,17 @@ body {
     color: var(--primaryColor);
   }
 
+
+
+/* ------------ Product Form -----------*/
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  display: none;
+}
+
+
   /* --------------- Products ---------------- */
 
 .products {
@@ -131,10 +142,22 @@ body {
     transition: var(--mainTransition);
     transform: translateX(101%);
     cursor: pointer;
+  } 
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 115%;
+  right: 30%;
+
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   }
+
   .bag-btn:hover {
     color: var(--mainWhite);
   }
+
   .fa-shopping-cart {
     margin-right: 0.5rem;
   }
