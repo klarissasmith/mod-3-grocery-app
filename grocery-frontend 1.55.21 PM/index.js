@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // const display = new Display();
     // const products = new Products()
 fetchProducts()
+fetchCart();
 
 // get all products
 // products.getProducts().then(data => console.log(data.name))
@@ -60,25 +61,7 @@ function renderProduct(product) {
     button.addEventListener("click", () => {
         fetch(`http://localhost:3000/cart_products`)
         .then(resp => resp.json())
-        // .then(json => console.log(json))
         .then(json => cartProductExistCheck(json, product))
-        // console.log(`Adding ${product.name} to your cart...`)
-        
-            // fetch(`http://localhost:3000/cart_products`, {
-            //     method: "POST",
-            //     headers: {
-            //         "Content-Type" : "application/json"
-            //     },
-            //     body: JSON.stringify({
-            //         "quantity" : 1,
-            //         "product_id" : product.id,
-            //         "cart_id" : CURRENT_CART
-            //     })
-            // })
-            // .then(resp => resp.json())
-            // .then(json => console.log(json))
-            // console.log(`You added ${product.name} to your cart!`);
-            
         }
     );
    
@@ -130,11 +113,13 @@ function cartProductExistCheck (json, product) {
         if (e.cart_id === CURRENT_CART && e.product_id === product.id) {
             console.log(`${product.name} is already in your cart!`);
             exists = !exists;
-            // console.log(exists);
             return;
         }
     })
-    console.log(exists);
+    if (exists === false) {
+        buildCartCard(product);
+        fetchPostCartProduct(product);
+    }
 }
 
 //get products
@@ -161,7 +146,23 @@ function cartProductExistCheck (json, product) {
 
 
 
-
+function fetchPostCartProduct (obj) {
+    fetch(CARTPRODUCTS_URL, {
+        method: "POST",
+        header: {
+            "Content-Type" : "application/json"
+        },
+        body: JSON.stringify(
+            {
+                "quantity": 1,
+                "product_id" : obj.id,
+                "cart_id" : CURRENT_CART
+            }
+        )
+    })
+    .then(resp => resp.json())
+    .then(json => console.log(json))
+}
 
 // build a product card for the cartContent
 function buildCartCard (obj) {
@@ -190,7 +191,16 @@ function buildCartCard (obj) {
 
     let amount = document.createElement("p");
     amount.className = "item-amount";
-    amount.qty = 1;
+    amount.qty = nil;
+    fetch(CARTPRODUCTS_URL)
+        .then(resp => resp.json())
+        .then(json => json.forEach (e => {
+            if (e.product_id === obj.id) {
+                fetch(`http://localhost:3000/cart_products/${e.id}`)
+                .then(resp => resp.json())
+                .then(json => amount.qty = json.quantity)    
+            }));
+    // amount.qty = 1;
     amount.innerText = `${amount.qty}`;
 
     let chevUp = document.createElement("i");
@@ -198,7 +208,24 @@ function buildCartCard (obj) {
     chevUp.addEventListener("click", () => {
         amount.qty ++;
         amount.innerText = `${amount.qty}`;
-        console.log("Clicked increment!");
+        fetch(CARTPRODUCTS_URL)
+        .then(resp => resp.json())
+        .then(json => json.forEach (e => {
+            if (e.product_id === obj.id) {
+                fetch(`http://localhost:3000/cart_products/${e.id}`, {
+                    method: "PATCH",
+                    headers: {
+                        "Content-Type" : "application/json",
+                    },
+                    body: JSON.stringify(
+                        {
+                            "quantity": amount.qty
+                        }
+                    )
+                }
+            )
+        }
+    }))
     });
 
     let chevDown = document.createElement("i");
@@ -217,5 +244,11 @@ function buildCartCard (obj) {
     div.appendChild(div2);
     cartList.appendChild(div);
 };
+
+function incrementQty (obj) {
+    
+
+}
+
 
 // }

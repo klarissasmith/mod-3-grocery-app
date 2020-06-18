@@ -1,5 +1,5 @@
 class CartProductsController < ApplicationController
-  before_action :set_cart_product, only: [:show, :update, :destroy]
+  before_action :set_cart_product, only: [:show, :update, :edit, :create, :destroy]
 
   # GET /cart_products
   def index
