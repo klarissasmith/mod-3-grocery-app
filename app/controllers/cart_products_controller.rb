@@ -1,5 +1,5 @@
 class CartProductsController < ApplicationController
-  before_action :set_cart_product, only: [:show, :update, :destroy]
+  before_action :set_cart_product, only: [:show, :update, :edit, :destroy]
 
   # GET /cart_products
   def index
@@ -15,6 +15,7 @@ class CartProductsController < ApplicationController
 
   # POST /cart_products
   def create
+    # byebug
     @cart_product = CartProduct.new(cart_product_params)
 
     if @cart_product.save
@@ -46,6 +47,6 @@ class CartProductsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def cart_product_params
-      params.require(:cart_product).permit(:item_id, :cart_id)
+      params.require(:cart_product).permit(:product_id, :cart_id, :quantity)
     end
 end
