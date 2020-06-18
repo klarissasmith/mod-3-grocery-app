@@ -1,5 +1,5 @@
 class CartProductsController < ApplicationController
-  before_action :set_cart_product, only: [:show, :update, :edit, :create, :destroy]
+  before_action :set_cart_product, only: [:show, :update, :edit, :destroy]
 
   # GET /cart_products
   def index
@@ -15,6 +15,7 @@ class CartProductsController < ApplicationController
 
   # POST /cart_products
   def create
+    # byebug
     @cart_product = CartProduct.new(cart_product_params)
 
     if @cart_product.save
