@@ -414,13 +414,13 @@ function buildCartCard (obj) {
 };
 
 // built to delete some unneeded records from database
-function deleteThing (id) {
-    fetch(`http://localhost:3000/cart_products/${id}`,{
-        method: "DELETE",
-        headers: {"Content-Type" : "application/json"}
-    })
+// function deleteThing (id) {
+//     fetch(`http://localhost:3000/cart_products/${id}`,{
+//         method: "DELETE",
+//         headers: {"Content-Type" : "application/json"}
+//     })
 
-}
+// }
 
 
 // }
